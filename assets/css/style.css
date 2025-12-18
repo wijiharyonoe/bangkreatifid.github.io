@@ -53,3 +53,52 @@ a {
   text-decoration: none;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(15,15,18,0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.navbar nav a {
+  margin-left: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.navbar nav a:hover {
+  opacity: 1;
+}
+
+.search-box {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #1a1a1f;
+  color: white;
+  font-size: 15px;
+}
+
+.search-box input:focus {
+  outline: 2px solid #ff6600;
+}
+
