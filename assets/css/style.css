@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
-///////////////////////////////////////////////////
 body {
   background: #111;
   color: #eee;
@@ -33,9 +32,7 @@ body {
   margin-top: 8px;
   text-decoration: none;
 }
-///////////////////////////////////////////////////
 
-//////////////////////////////////////////////////
 .download-btn {
   display: inline-block;
   background: #00aa66;
@@ -44,4 +41,4 @@ body {
   text-decoration: none;
   border-radius: 4px;
 }
-/////////////////////////////////////////////////
+
