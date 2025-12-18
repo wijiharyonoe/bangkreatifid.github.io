@@ -1,7 +1,37 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
+///////////////////////////////////////////////////
 body {
   background: #111;
   color: #eee;
   font-family: Arial;
 }
+
+.mods {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  gap: 15px;
+}
+
+.mod-card {
+  background: #1b1b1b;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.mod-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.mod-card a {
+  display: block;
+  text-align: center;
+  background: #ff6600;
+  color: white;
+  padding: 8px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+///////////////////////////////////////////////////
+
