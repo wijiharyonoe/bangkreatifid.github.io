@@ -1,39 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>LACMods Hub</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>GTAMods Hub – Free GTA Mods</title>
 
-  <meta name="description" content="Download LAC mods free. Cars, maps, skins.">
+  <!-- Responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- SEO -->
+  <meta name="description" content="Download high-quality GTA mods. Vehicles, maps, skins, and more. Safe and curated.">
+
+  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- MAIN CSS -->
+  <!-- NOTE: v=6 hanya untuk cache busting -->
+  <link rel="stylesheet" href="assets/css/style.css?v=6">
 </head>
+
 <body>
 
-<header>
-  <h1>LACMods Hub</h1>
+<!-- =========================
+     NAVBAR
+========================= -->
+<header class="navbar">
+  <div class="logo">GTAMods</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#mods">Explore</a>
+    <a href="#">Vehicles</a>
+    <a href="#">Maps</a>
+    <a href="#">Skins</a>
+  </nav>
 </header>
-  
-<div class="search-box">
-  <input type="text" id="search" placeholder="Search mods...">
-</div>
 
-<main class="container">
+<!-- =========================
+     HERO (FULL PAGE)
+========================= -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>GTAMods Hub</h1>
+    <p>
+      High-quality GTA mods. Vehicles, maps, skins, and more —
+      curated, safe, and free to download.
+    </p>
+
+    <a href="#mods" class="btn-explore">Explore Mods</a>
+  </div>
+</section>
+
+<!-- =========================
+     MOD LIST
+========================= -->
+<main class="container" id="mods">
+
   <section class="mods">
-    <div class="mod-card">
-      <img src="assets/images/test.jpg">
-      <h3>Toyota Supra</h3>
-      <p>Vehicles • LAC</p>
-      <a href="mods/toyotasupra.html">View</a>
-    </div>
-  </section>
-</main>
 
-<script src="assets/js/main.js"></script>
+    <!-- MOD CARD -->
+    <div class="mod-card">
+      <img src="assets/images/car.jpg" alt="Police Car Mod">
+
+      <div class="mod-info">
+        <h3>Police Car Mod</h3>
+        <p>Vehicles • GTA V</p>
+        <a href="mods/police-car.html">View Mod</a>
+      </div>
+    </div>
+
+    <!-- DUPLIKASI CARD UNTUK MOD LAIN -->
+    <!--
+    <div class="mod-card">
+      <img src="assets/images/map.jpg">
+      <div class="mod-info">
+        <h3>HD Map Mod</h3>
+        <p>Maps • GTA V</p>
+        <a href="mods/hd-map.html">View Mod</a>
+      </div>
+    </div>
+    -->
+
+  </section>
+
+</main>
 
 </body>
 </html>
